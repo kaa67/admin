@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Bootstrap4Samples from './Bootstrap4Samples';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Bootstrap4Samples />, document.getElementById('root'));
