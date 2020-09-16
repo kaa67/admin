@@ -58,6 +58,7 @@ export default class TopMenu extends Component {
                                     <Nav.ItemLink href="#">Pricing</Nav.ItemLink>
                                     <Nav.ItemLink href="#">About</Nav.ItemLink>
                                 </Navbar.Nav>
+                                <Navbar.Text>your_best@email.nah</Navbar.Text>
                                 <Form inline my="3 lg-0">
                                     <Button
                                         danger
