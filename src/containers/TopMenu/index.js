@@ -36,9 +36,8 @@ export default class TopMenu extends Component {
                     {
                         user === null
                         ? (
-                            <React.Fragment>
-                                <Form inline my="1 lg-0">
-                                    <Button
+                            <Form my="1 lg-0">
+                                <Button
                                         success
                                         outline
                                         sm
@@ -46,9 +45,8 @@ export default class TopMenu extends Component {
                                         onClick={this.login}
                                     >
                                         Вход
-                                    </Button>
-                                </Form>
-                            </React.Fragment>
+                                </Button>
+                            </Form>
                         )
                         : (
                             <React.Fragment>
