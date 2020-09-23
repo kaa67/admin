@@ -7,7 +7,7 @@ export default class Admin extends React.Component {
         return (
             <Container fluid>
                 <TopMenu />
-                Hruhru Хрюхрю
+                <h1>Hruhru</h1>
             </Container>
         )
     }
