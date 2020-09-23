@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from "mobx-react";
-import UserStore from "./stores/UserStore";
+import stores from "./stores";
 import Admin from './containers/Admin';
 
-const stores = {
-    UserStore,
-}
 ReactDOM.render(
     <Provider {...stores}>
         <Admin />

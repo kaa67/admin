@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Button, Form, Collapse } from 'bootstrap-4-react';
+import {inject, observer} from 'mobx-react';
 
-export default class TopMenu extends Component {
+@inject("UserStore")
+@observer
+class TopMenu extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            user: null,
-        }
+
         this.login = this.login.bind(this);
         this.logout = this.logout.bind(this);
     }
@@ -16,18 +17,18 @@ export default class TopMenu extends Component {
 
     login(event) {
         event.stopPropagation();
-        const user = {};
-        this.setState({ user });
+        this.props.UserStore.user = {
+            email: 'lkjlkj@kjhkjhkj>ruk',
+        };
     }
 
     logout(event) {
         event.stopPropagation();
-        const user = null;
-        this.setState({ user });
+        this.props.UserStore.user = null;
     }
 
     render() {
-        const { user } = this.state;
+        const { user } = this.props.UserStore;
         return (
             <Navbar expand="lg" dark bg="dark" mb="3">
                 <Navbar.Brand href="#">Navbar</Navbar.Brand>
@@ -76,3 +77,5 @@ export default class TopMenu extends Component {
         )
     }
 }
+
+export default TopMenu;
