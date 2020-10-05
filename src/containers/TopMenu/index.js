@@ -55,7 +55,7 @@ class TopMenu extends Component {
                                 <Navbar.Nav mr="auto">
                                     <Nav.ItemLink href="#" active>Home</Nav.ItemLink>
                                     <Nav.ItemLink href="#">Features</Nav.ItemLink>
-                                    <Nav.ItemLink href="#">Pricing</Nav.ItemLink>
+                                    <Nav.ItemLink href="#">Цены</Nav.ItemLink>
                                     <Nav.ItemLink href="#">About</Nav.ItemLink>
                                 </Navbar.Nav>
                                 <Navbar.Text>your_best@email.nah</Navbar.Text>
