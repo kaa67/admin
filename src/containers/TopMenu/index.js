@@ -3,14 +3,8 @@ import { Navbar, Nav, Button, Form, Collapse } from 'bootstrap-4-react';
 import {inject, observer} from 'mobx-react';
 
 @inject("UserStore")
-
-
-
-@o bserver
-
-
-
-
+@observer
+@observer
 class TopMenu extends Component {
 
     constructor(props) {
