@@ -6,5 +6,5 @@ import Admin from './containers/Admin';
 
 ReactDOM.render(
     <Provider {...stores}><Admin /></Provider>,
-    document.body,
+    document.getElementById('admin'),
 );
