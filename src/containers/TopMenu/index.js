@@ -53,10 +53,10 @@ class TopMenu extends Component {
                         : (
                             <React.Fragment>
                                 <Navbar.Nav mr="auto">
-                                    <Nav.ItemLink href="#" active>Home</Nav.ItemLink>
-                                    <Nav.ItemLink href="#">Features</Nav.ItemLink>
-                                    <Nav.ItemLink href="#">Pricing</Nav.ItemLink>
-                                    <Nav.ItemLink href="#">About</Nav.ItemLink>
+                                    <Nav.ItemLink href="#" active>Дом</Nav.ItemLink>
+                                    <Nav.ItemLink href="#">Ваучеры</Nav.ItemLink>
+                                    <Nav.ItemLink href="#">Хуяйсинг</Nav.ItemLink>
+                                    <Nav.ItemLink href="#">Ебаут</Nav.ItemLink>
                                 </Navbar.Nav>
                                 <Navbar.Text>your_best@email.nah</Navbar.Text>
                                 <Form inline my="3 lg-0">
