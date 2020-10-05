@@ -4,7 +4,12 @@ import {inject, observer} from 'mobx-react';
 
 @inject("UserStore")
 
-@observer
+
+
+@o bserver
+
+
+
 
 class TopMenu extends Component {
 
